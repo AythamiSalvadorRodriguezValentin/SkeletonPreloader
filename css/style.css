@@ -1,3 +1,26 @@
-.sk-main {
-    background-color: black;
+.tweak-footer-layout-columns .Footer-inner {
+    padding: 30px 50px;
+}
+
+.flex {
+    display: flex !important;
+}
+
+.flex-center {
+    align-content: center !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.sqs-layout > .sqs-row.sqs-col-12 {
+    width: 80% !important;
+}
+.small-button-shape-pill .sqs-block-button .sqs-block-button-element--small, .medium-button-shape-pill .sqs-block-button .sqs-block-button-element--medium, .large-button-shape-pill .sqs-block-button .sqs-block-button-element--large {
+    padding: 1em 2.5em;
+}
+.Index-page {
+    box-sizing: border-box;
+    padding-top: 115px;
+}
+.full-height {
+
 }
