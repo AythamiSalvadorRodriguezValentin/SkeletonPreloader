@@ -50,6 +50,7 @@ Ejemplo completo:
 ```<div class="pr-container">
    <div class="pr-off">Esto se va a mostrar cuando carge</div>
    <div class="pr-on pr-text">Esto se va a mostrar durante la carga</div>
-</div>```
+</div>
+```
 
 Aquí tienes un ejemplo de como usarlas: link landing-page.
