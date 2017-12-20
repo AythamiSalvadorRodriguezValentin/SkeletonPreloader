@@ -11,11 +11,16 @@ Solo sigue los pasos de como usarla y listo :)
 Para usar SkeletonPreLoader.js solo tienes que seguir los siguientes pasos 
 
 1.- Enlazar dentro de tu ```<head>``` los link de javascript y de css de SkeletonPreloader.js 
-                                    (imagen):  
+
+                                    (imagen) 
+                                    
 2.-Añadir un pequeño script al final de tu index.html, como esta en la imágen. 
-                                    (imagen):
+
+                                    (imagen) 
+                                    
 Dentro de la etiqueta "opcional", puedes poner la acción que más te convenga, es decir, que puedes hacer cualquier 
 llamada desde ahí con el tiempo que quieras. Lo único esencial es la llamada a la clase("preload.finish()"). 
+
 | ﻿Clases | |
 |--------------------|--------------------|
 | `pr-on` |`Te mostrará los elementos durante el preload.` |
@@ -24,6 +29,7 @@ llamada desde ahí con el tiempo que quieras. Lo único esencial es la llamada a
 
 
 También podemos definir el tipo de estructura que queremos en el preload. 
+
 | ﻿Clases | |
 |--------------------|--------------------|
 | `pr-menu-v` |`Menu Vertical.` |
