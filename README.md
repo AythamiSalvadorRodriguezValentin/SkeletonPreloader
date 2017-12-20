@@ -8,14 +8,14 @@ Esta librería no requiere de instalación previa.
 Solo sigue los pasos de como usarla y listo :)
 
 ## USO
-Para usar SkeletonPreLoader.js solo tienes que seguir los siguientes pasos:
+Para usar SkeletonPreLoader.js solo tienes que seguir los siguientes pasos 
 
-1.- Enlazar dentro de tu ```<head>``` los link de javascript y de css de SkeletonPreloader.js:
+1.- Enlazar dentro de tu ```<head>``` los link de javascript y de css de SkeletonPreloader.js 
                                     (imagen):  
-2.-Añadir un pequeño script al final de tu index.html, como esta en la imágen.:
+2.-Añadir un pequeño script al final de tu index.html, como esta en la imágen. 
                                     (imagen):
-Dentro de la etiqueta "opcional", puedes poner la acción que más te convenga, es decir, que puedes hacer cualquier: 
-llamada desde ahí con el tiempo que quieras. Lo único esencial es la llamada a la clase("preload.finish()").:
+Dentro de la etiqueta "opcional", puedes poner la acción que más te convenga, es decir, que puedes hacer cualquier 
+llamada desde ahí con el tiempo que quieras. Lo único esencial es la llamada a la clase("preload.finish()"). 
 | ﻿Clases | |
 |--------------------|--------------------|
 | `pr-on` |`Te mostrará los elementos durante el preload.` |
@@ -23,7 +23,7 @@ llamada desde ahí con el tiempo que quieras. Lo único esencial es la llamada a
 | `pr-container` |`Con esta clase vamos a definir un contenedor para ajustar las medidas mínimas de los elementos.` |
 
 
-También podemos definir el tipo de estructura que queremos en el preload.:
+También podemos definir el tipo de estructura que queremos en el preload. 
 | ﻿Clases | |
 |--------------------|--------------------|
 | `pr-menu-v` |`Menu Vertical.` |
@@ -36,10 +36,10 @@ También podemos definir el tipo de estructura que queremos en el preload.:
 | `pr-features` |`Panel de características.` |
 | `pr-placeholder` |`Imagenes ...` |
 
-Para usarlo tienes que añadir la clase "pr-off" al elemento que quieras que se muestre despues de la precarga, y "pr-on" al: elemento que quieras que se ejecute durante la precarga además de la clase del tipo de estructura que quieres:
-mostrar. Y poner un div contenedor de todo con la clase "pr-container".:
+Para usarlo tienes que añadir la clase "pr-off" al elemento que quieras que se muestre despues de la precarga, y "pr-on" al  elemento que quieras que se ejecute durante la precarga además de la clase del tipo de estructura que quieres 
+mostrar. Y poner un div contenedor de todo con la clase "pr-container". 
 
-Ejemplo completo:
+Ejemplo completo: 
 
 ```<div class="pr-container">
    <div class="pr-off">Esto se va a mostrar cuando carge</div>
