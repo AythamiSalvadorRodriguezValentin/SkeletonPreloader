@@ -11,7 +11,7 @@
 			linear-gradient( lightgray 20px, transparent 0 ),
 			linear-gradient( lightgray 20px, transparent 0 );
 
-		background-repeat: repeat-y;
+		background-repeat: no-repeat;
 
 		background-size:
 			100px 200px, /* circle */
