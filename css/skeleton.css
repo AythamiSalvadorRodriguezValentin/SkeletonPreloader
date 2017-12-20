@@ -43,3 +43,39 @@
 				120px 120px;
 		}
 	}
+
+.pr_option:empty {
+    margin: auto;
+		width: 500px;
+		height: 200px; /* change height to see repeat-y behavior */
+
+		background-image:
+			radial-gradient( circle 50px at 50px 10px, lightgray 20%, transparent 0 ),
+			linear-gradient( 100deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 80% ),
+			linear-gradient( lightgray 20px, transparent 0 );
+
+		background-repeat: repeat-y;
+
+		background-size:
+			100px 50px, /* circle */
+			50px 50px, /* highlight */
+			300px 50px;
+
+
+		background-position:
+			0 0, /* circle */
+			0 0, /* highlight */
+			100px 0;
+
+
+		animation: shine_pr_option 1s infinite;
+	}
+
+	@keyframes shine_pr_option {
+		to {
+			background-position:
+				0 0,
+				100% 0, /* move highlight to right */
+				100px 0;
+		}
+	}
