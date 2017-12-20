@@ -79,3 +79,40 @@
 				100px 0;
 		}
 	}
+
+.pr_option1:empty {
+    margin: auto;
+		width: 600px;
+		height: 200px; /* change height to see repeat-y behavior */
+
+		background-image:
+			radial-gradient( circle 50px at 50px 10px, lightgray 20%, transparent 0 ),
+			linear-gradient( 100deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 80% ),
+			linear-gradient( lightgray 10px, transparent 50px );
+
+		background-repeat: no-repeat;
+
+		background-size:
+			100px 50px, /* circle */
+			50px 50px, /* highlight */
+			300px 50px;
+
+
+		background-position:
+			0 0, /* circle */
+			0 0, /* highlight */
+			100px 0;
+
+
+		animation: shine_pr_option1 1s infinite;
+	}
+
+	@keyframes shine_pr_option1 {
+		to {
+			background-position:
+				0 0,
+				100% 0, /* move highlight to right */
+				100px 0;
+		}
+	}
+
