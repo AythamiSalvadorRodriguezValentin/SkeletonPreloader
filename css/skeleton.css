@@ -116,3 +116,109 @@
 		}
 	}
 
+.circle {
+
+	width: 100px;
+	height: 100px;
+	background-color: lightgrey;
+	border-radius: 50%;
+
+}
+
+.square {
+    width: 100px;
+	height: 100px;
+    border-radius: 20%;
+	background: lightgrey;
+}
+
+.line {
+    width: 500px;
+	height: 20px;
+    border-radius: 15px;
+	background: lightgrey;
+}
+
+.rectangle {
+     width: 200px;
+	height: 100px;
+    border-radius: 25px;
+	background: lightgrey;
+}
+
+.pr-user {
+   display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pr-feature {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.pr-circle-container {
+    margin-right: 20px;
+}
+
+
+.pr-circle {
+
+	width: 100px;
+	height: 100px;
+	background-color: lightgrey;
+	border-radius: 50%;
+     margin-bottom: 20px;
+}
+
+.pr-line {
+    width: 300px;
+	height: 20px;
+    border-radius: 15px;
+	background: lightgrey;
+   margin-bottom: 10px;
+}
+
+.pr-line:last-child {
+   width: 230px;
+}
+
+.pr-nav-h {
+     display: flex;
+    flex-direction: row;
+}
+
+.pr-list-item-h {
+     display: flex;
+	align-items: center;
+	justify-content:space-between;
+}
+.pr-list-item-v {
+     display: flex;
+	align-items: center;
+	justify-content:center;
+}
+
+.pr-circle-nav {
+    width: 30px;
+	height: 30px;
+	background-color: lightgrey;
+	border-radius: 50%;
+     margin-bottom: 20px;
+    margin-right: 15px;
+    margin-left: 50px;
+}
+.pr-post-header {
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pr-post-content .pr-line {
+    width: 500px;
+	height: 20px;
+    border-radius: 15px;
+	background: lightgrey;
+   margin-bottom: 10px;
+}
