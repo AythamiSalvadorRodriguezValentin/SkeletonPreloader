@@ -142,19 +142,20 @@ class SkeletonPreloader {
         this.elementsPrPost.forEach(element => {
             element.innerHTML =
                 "<div class='pr-post-header'>" +
-                "<div class='pr-circle-container'>" +
-                "<div class='pr-circle'>&nbsp</div>" +
-                "</div>" +
-                "<div class='pr-lines-container'>" +
-                "<div class='pr-line'>&nbsp</div>" +
-                "<div class='pr-line'>&nbsp</div>" +
-                "</div>" +
+                    "<div class='pr-circle-container'>" +
+                        "<div class='pr-circle'>&nbsp</div>" +
+                    "</div>" +
+                    "<div class='pr-lines-container'>" +
+                        "<div class='pr-line'>&nbsp</div>" +
+                        "<div class='pr-line'>&nbsp</div>" +
+                    "</div>" +
                 "</div>" +
                 "<div class='pr-post-content'>" +
-                "<div class='pr-line'>&nbsp</div>" +
-                "<div class='pr-line'>&nbsp</div>" +
-                "<div class='pr-line'>&nbsp</div>" +
+                    "<div class='pr-line'>&nbsp</div>" +
+                    "<div class='pr-line'>&nbsp</div>" +
+                    "<div class='pr-line'>&nbsp</div>" +
                 "</div>";
         });
     };
 };
+let preloader = new SkeletonPreloader();
