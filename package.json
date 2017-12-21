@@ -2,7 +2,7 @@
   "name": "skeleton-preloader",
   "version": "1.0.0",
   "description": "Awesome js library for SkeletonPreloader",
-  "main": "demo.html css/skeleton.css css/style.css .gitignore index.html README.md",
+  "main": "demo.html js/skeletonPrelaoder.js css/skeleton.css css/style.css .gitignore index.html README.md",
   "scripts": {
     "test": "test"
   },
