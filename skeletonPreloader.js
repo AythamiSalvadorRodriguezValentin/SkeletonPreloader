@@ -33,7 +33,13 @@ class SkeletonPreloader {
         this.elementsPrFeature = document.querySelectorAll('.pr-feature');
         this.elementsPrUser = document.querySelectorAll('.pr-user');
         this.elementsPrPost = document.querySelectorAll('.pr-post');
-        return this.elementsPrOn, this.elementsPrOff;
+        return this.elementsPrOn,
+            this.elementsPrOff,
+            this.elementsPrNavH,
+            this.elementsPrNavV,
+            this.elementsPrFeature,
+            this.elementsPrUser,
+            this.elementsPrPost;
     };
     // Fuction DOM add, replace or remove class:
     addClass(elements, classToAdd) {
@@ -61,8 +67,9 @@ class SkeletonPreloader {
         this.addClass(this.elementsPrOff, type)
     };
     checkPrMenuH() {
-        for (let i = 0; i < this.elementsPrNavH; i++) {
-            this.elementsPrNavH[i].innerhtml =
+        if (this.elementsPrNavH.length == 0) return;
+        this.elementsPrNavH.forEach(element => {
+            element.innerHTML =
                 "<div class='pr-list-item'>" +
                 "<div class='pr-circle'>&nbsp</div>" +
                 "<div class='pr-line'>&nbsp</div>" +
@@ -79,11 +86,12 @@ class SkeletonPreloader {
                 "<div class='pr-circle'>&nbsp</div>" +
                 "<div class='pr-line'>&nbsp</div>" +
                 "</div>";
-        };
+        });
     };
     checkPrMenuV() {
-        for (let i = 0; i < this.elementsPrNavV; i++) {
-            this.elementsPrNavV[i].innerhtml =
+        if (this.elementsPrNavV.length == 0) return;
+        this.elementsPrNavV.forEach(element => {
+            element.innerHTML =
                 "<div class='pr-list-item'>" +
                 "<div class='pr-circle'>&nbsp</div>" +
                 "<div class='pr-line'>&nbsp</div>" +
@@ -100,11 +108,12 @@ class SkeletonPreloader {
                 "<div class='pr-circle'>&nbsp</div>" +
                 "<div class='pr-line'>&nbsp</div>" +
                 "</div>";
-        };
+        });
     };
     checkPrFeature() {
-        for (let i = 0; i < this.elementsPrFeature; i++) {
-            this.elementsPrFeature[i].innerhtml =
+        if (this.elementsPrFeature.length == 0) return;
+        this.elementsPrFeature.forEach(element => {
+            element.innerHTML =
                 "<div class='pr-circle-container'>" +
                 "<div class='pr-circle'>&nbsp</div>" +
                 "</div>" +
@@ -113,11 +122,12 @@ class SkeletonPreloader {
                 "<div class='pr-line'>&nbsp</div>" +
                 "<div class='pr-line'>&nbsp</div>" +
                 "</div>";
-        };
+        });
     };
     checkPrUser() {
-        for (let i = 0; i < this.elementsPrUser; i++) {
-            this.elementsPrUser[i].innerhtml =
+        if (this.elementsPrUser.length == 0) return;
+        this.elementsPrUser.forEach(element => {
+            element.innerHTML =
                 "<div class='pr-circle-container'>" +
                 "<div class='pr-circle'>&nbsp</div>" +
                 "</div>" +
@@ -125,11 +135,12 @@ class SkeletonPreloader {
                 "<div class='pr-line'>&nbsp</div>" +
                 "<div class='pr-line'>&nbsp</div>" +
                 "</div>";
-        };
+        });
     };
     checkPrPost() {
-        for (let i = 0; i < this.elementsPrPost; i++) {
-            this.elementsPrPost[i].innerhtml =
+        if (this.elementsPrPost.length == 0) return;
+        this.elementsPrPost.forEach(element => {
+            element.innerHTML =
                 "<div class='pr-post-header'>" +
                 "<div class='pr-circle-container'>" +
                 "<div class='pr-circle'>&nbsp</div>" +
@@ -144,6 +155,6 @@ class SkeletonPreloader {
                 "<div class='pr-line'>&nbsp</div>" +
                 "<div class='pr-line'>&nbsp</div>" +
                 "</div>";
-        };
+        });
     };
 };
