@@ -70,19 +70,19 @@ class SkeletonPreloader {
         if (this.elementsPrNavH.length == 0) return;
         this.elementsPrNavH.forEach(element => {
             element.innerHTML =
-                "<div class='pr-list-item'>" +
+                "<div class='pr-item-h'>" +
                 "<div class='pr-circle'>&nbsp</div>" +
                 "<div class='pr-line'>&nbsp</div>" +
                 "</div>" +
-                "<div class='pr-list-item'>" +
+                "<div class='pr-item-h'>" +
                 "<div class='pr-circle'>&nbsp</div>" +
                 "<div class='pr-line'>&nbsp</div>" +
                 "</div>" +
-                "<div class='pr-list-item'>" +
+                "<div class='pr-item-h'>" +
                 "<div class='pr-circle'>&nbsp</div>" +
                 "<div class='pr-line'>&nbsp</div>" +
                 "</div>" +
-                "<div class='pr-list-item'>" +
+                "<div class='pr-item-h'>" +
                 "<div class='pr-circle'>&nbsp</div>" +
                 "<div class='pr-line'>&nbsp</div>" +
                 "</div>";
@@ -92,19 +92,19 @@ class SkeletonPreloader {
         if (this.elementsPrNavV.length == 0) return;
         this.elementsPrNavV.forEach(element => {
             element.innerHTML =
-                "<div class='pr-list-item'>" +
+                "<div class='pr-item-v'>" +
                 "<div class='pr-circle'>&nbsp</div>" +
                 "<div class='pr-line'>&nbsp</div>" +
                 "</div>" +
-                "<div class='pr-list-item'>" +
+                "<div class='pr-item-v'>" +
                 "<div class='pr-circle'>&nbsp</div>" +
                 "<div class='pr-line'>&nbsp</div>" +
                 "</div>" +
-                "<div class='pr-list-item'>" +
+                "<div class='pr-item-v'>" +
                 "<div class='pr-circle'>&nbsp</div>" +
                 "<div class='pr-line'>&nbsp</div>" +
                 "</div>" +
-                "<div class='pr-list-item'>" +
+                "<div class='pr-item-v'>" +
                 "<div class='pr-circle'>&nbsp</div>" +
                 "<div class='pr-line'>&nbsp</div>" +
                 "</div>";
