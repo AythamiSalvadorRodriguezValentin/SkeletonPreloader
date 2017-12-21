@@ -72,7 +72,15 @@ body {
 }
 .pr-list-item-v {
      display: flex;
-	align-items: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.pr-list-item-v:last-child {
+    margin-bottom: 0px;
+}
+
+.pr-list-item-v .pr-circle-nav {
+    margin-right: 12px;
 }
 
 .pr-circle-nav {
