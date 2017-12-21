@@ -4,9 +4,6 @@ SkeletonPreloader.js is a fantastic and simple library where you can make a skel
 
 <a href="https://gyazo.com/bd78fe34b5a9214709e899353dd8b1b9"><img align="center" src="https://i.gyazo.com/bd78fe34b5a9214709e899353dd8b1b9.gif" alt="https://gyazo.com/bd78fe34b5a9214709e899353dd8b1b9" width="424"/></a><br>
 
-## INSTALACIÓN
-SkeletonPreloader. js does not require previous installation.
-
 ## USO
 
 [Here](https://aythamisalvadorrodriguezvalentin.github.io/SkeletonPreloader/) is an example of how to use them.
