@@ -25,7 +25,7 @@ We can also define the type of structure we want in the preload.
 | `pr-features` | Feature Panel |
 | `pr-placeholder` | Image |
 
-To use it you have to add the class "pr-off" to the element you want to display after preloading, and "pr-on" to the element you want to run during preloading in addition to the class of the type of structure you want toshow. 
+To use it you have to add the class "pr-off" to the element you want to display after preloading, and "pr-on" to the element you want to run during preloading in addition to the class of the type of structure you want to show. 
 And put a div container of everything with the class "pr-container". 
 
 Example: 
@@ -35,5 +35,5 @@ Example:
      <div class="pr-off">Esto se va a mostrar cuando carge</div>
 
      <div class="pr-on pr-user">Esto se va a mostrar durante la carga</div>
-   </div>
+</div>
 ```
