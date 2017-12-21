@@ -12,7 +12,7 @@ Para usar SkeletonPreLoader.js solo tienes que seguir los siguientes pasos
 
 1.- Enlazar dentro de tu ```<head>``` los link de javascript y de css de SkeletonPreloader.js 
 
-                                    (imagen) 
+                                     
                                     
 2.-Añadir un pequeño script al final de tu index.html, como esta en la imágen. 
 
@@ -34,13 +34,10 @@ También podemos definir el tipo de estructura que queremos en el preload.
 |--------------------|--------------------|
 | `pr-menu-v` |`Menu Vertical.` |
 | `pr-menu-h` |`Menú Horizontal.` |
-| `pr-text` |`Texto.` |
-| `pr-input` |`Inputs.` |
-| `pr-form` |`Formularios.` |
 | `pr-user` |`Panel de usuario.` |
-| `pr-option` |`Lista desordenada.` |
 | `pr-features` |`Panel de características.` |
 | `pr-placeholder` |`Imagenes ...` |
+| `pr-post` |`Tipo post` |
 
 Para usarlo tienes que añadir la clase "pr-off" al elemento que quieras que se muestre despues de la precarga, y "pr-on" al  elemento que quieras que se ejecute durante la precarga además de la clase del tipo de estructura que quieres 
 mostrar. Y poner un div contenedor de todo con la clase "pr-container". 
@@ -49,7 +46,7 @@ Ejemplo completo:
 
 ```<div class="pr-container">
    <div class="pr-off">Esto se va a mostrar cuando carge</div>
-   <div class="pr-on pr-text">Esto se va a mostrar durante la carga</div>
+   <div class="pr-on pr-user">Esto se va a mostrar durante la carga</div>
 </div>
 ```
 
