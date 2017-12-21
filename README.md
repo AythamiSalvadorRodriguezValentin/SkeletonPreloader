@@ -1,52 +1,39 @@
 # SkeletonPreloader.js
 
-Preloader.js es una fantástica y simple librería donde podrás realizar un skeleton de manera rápida y efectiva para tu web aportando
-una estética fundamental de cara al usuario.
+SkeletonPreloader.js is a fantastic and simple library where you can make a skeleton quickly and effectively for your website providing a fundamental aesthetics for the user.
 
-## INSTALACIÓN
-Esta librería no requiere de instalación previa.
-Solo sigue los pasos de como usarla y listo :)
+<a href="https://gyazo.com/bd78fe34b5a9214709e899353dd8b1b9"><img align="center" src="https://i.gyazo.com/bd78fe34b5a9214709e899353dd8b1b9.gif" alt="https://gyazo.com/bd78fe34b5a9214709e899353dd8b1b9" width="424"/></a><br>
 
-## USO
-Para usar SkeletonPreLoader.js solo tienes que seguir los siguientes pasos 
+## USAGE
 
-1.- Enlazar dentro de tu ```<head>``` los link de javascript y de css de SkeletonPreloader.js 
+[Here](https://aythamisalvadorrodriguezvalentin.github.io/SkeletonPreloader/) is an example of how to use them.
 
-                                    
-2.-Añadir un pequeño script al final de tu index.html, como esta en la imágen. 
-
-                                    (imagen) 
-                                    
-Dentro de la etiqueta "opcional", puedes poner la acción que más te convenga, es decir, que puedes hacer cualquier 
-llamada desde ahí con el tiempo que quieras. Lo único esencial es la llamada a la clase("preload.finish()"). 
-
-| ﻿Clases | |
+| ﻿Classes | |
 |--------------------|--------------------|
-| `pr-on` |`Te mostrará los elementos durante el preload.` |
-| `pr-off` |`Te mostrará los elementos después del preload.` |
-| `pr-container` |`Con esta clase vamos a definir un contenedor para ajustar las medidas mínimas de los elementos.` |
+| `pr-on` | It will show you the elements during the preload. |
+| `pr-off` | It will show you the elements after the preload. |
+| `pr-container` | With this class we will define a container to adjust the minimum dimensions of the elements. |
 
 
-También podemos definir el tipo de estructura que queremos en el preload. 
+We can also define the type of structure we want in the preload. 
 
-| ﻿Clases | |
+| ﻿Classes | |
 |--------------------|--------------------|
-| `pr-menu-v` |`Menu Vertical.` |
-| `pr-menu-h` |`Menú Horizontal.` |
-| `pr-user` |`Panel de usuario.` |
-| `pr-features` |`Panel de características.` |
-| `pr-placeholder` |`Imagenes ...` |
+| `pr-menu-v` | Vertical Menu. |
+| `pr-menu-h` | Horizontal Menu. |
+| `pr-user` | User Panel |
+| `pr-features` | Feature Panel |
+| `pr-placeholder` | Image |
 
-Para usarlo tienes que añadir la clase "pr-off" al elemento que quieras que se muestre despues de la precarga, y "pr-on" al  elemento que quieras que se ejecute durante la precarga además de la clase del tipo de estructura que quieres 
-mostrar. Y poner un div contenedor de todo con la clase "pr-container". 
+To use it you have to add the class "pr-off" to the element you want to display after preloading, and "pr-on" to the element you want to run during preloading in addition to the class of the type of structure you want to show. 
+And put a div container of everything with the class "pr-container". 
 
-Ejemplo completo: 
+Example: 
 
-```<div class="pr-container">
+```
+<div class="pr-container">
      <div class="pr-off">Esto se va a mostrar cuando carge</div>
 
      <div class="pr-on pr-user">Esto se va a mostrar durante la carga</div>
-   </div>
+</div>
 ```
-
-Aquí tienes un ejemplo de como usarlas: link landing-page.
