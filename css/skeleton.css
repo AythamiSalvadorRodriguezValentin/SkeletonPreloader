@@ -5,6 +5,18 @@ body {
     background-color: rgb(245,245,243);
 }
 
+.pr-on{
+
+}
+
+.pr-off{
+    display: none;
+}
+
+.pr-off * {
+    display: none !important;
+}
+
 .pr-user {
     display: flex;
     align-items: center;
