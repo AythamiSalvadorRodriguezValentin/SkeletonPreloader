@@ -9,7 +9,7 @@ SkeletonPreloader. js does not require previous installation.
 
 ## USO
 
-[Here](https://aythamisalvadorrodriguezvalentin.github.io/SkeletonPreloader/)is an example of how to use them.
+[Here](https://aythamisalvadorrodriguezvalentin.github.io/SkeletonPreloader/) is an example of how to use them.
 
 | ﻿Classes | |
 |--------------------|--------------------|
@@ -33,7 +33,8 @@ And put a div container of everything with the class "pr-container".
 
 Example: 
 
-```<div class="pr-container">
+```
+<div class="pr-container">
      <div class="pr-off">Esto se va a mostrar cuando carge</div>
 
      <div class="pr-on pr-user">Esto se va a mostrar durante la carga</div>
