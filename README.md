@@ -21,9 +21,9 @@ We can also define the type of structure we want in the preload.
 |--------------------|--------------------|
 | `pr-menu-v` | Vertical Menu. |
 | `pr-menu-h` | Horizontal Menu. |
-| `pr-user` | User Panel |
+| `pr-user` | User Panel. |
 | `pr-features` | Feature Panel |
-| `pr-placeholder` | Image |
+| `pr-post` | Type post. |
 
 To use it you have to add the class "pr-off" to the element you want to display after preloading, and "pr-on" to the element you want to run during preloading in addition to the class of the type of structure you want to show. 
 And put a div container of everything with the class "pr-container". 
