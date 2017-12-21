@@ -1,128 +1,8 @@
-.pr_user:empty {
-    margin: auto;
-		width: 500px;
-		height: 600px; /* change height to see repeat-y behavior */
-
-		background-image:
-			radial-gradient( circle 50px at 50px 50px, lightgray 99%, transparent 0 ),
-			linear-gradient( 100deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 80% ),
-			linear-gradient( lightgray 20px, transparent 0 ),
-			linear-gradient( lightgray 20px, transparent 0 ),
-			linear-gradient( lightgray 20px, transparent 0 ),
-			linear-gradient( lightgray 20px, transparent 0 );
-
-		background-repeat: no-repeat;
-
-		background-size:
-			100px 200px, /* circle */
-			50px 200px, /* highlight */
-			150px 200px,
-			350px 200px,
-			300px 200px,
-			250px 200px;
-
-		background-position:
-			0 0, /* circle */
-			0 0, /* highlight */
-			120px 0,
-			120px 40px,
-			120px 80px,
-			120px 120px;
-
-		animation: shine 1s infinite;
-	}
-
-	@keyframes shine {
-		to {
-			background-position:
-				0 0,
-				100% 0, /* move highlight to right */
-				120px 0,
-				120px 40px,
-				120px 80px,
-				120px 120px;
-		}
-	}
-
-.pr_option:empty {
-    margin: auto;
-		width: 500px;
-		height: 200px; /* change height to see repeat-y behavior */
-
-		background-image:
-			radial-gradient( circle 50px at 50px 10px, lightgray 20%, transparent 0 ),
-			linear-gradient( 100deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 80% ),
-			linear-gradient( lightgray 20px, transparent 0 );
-
-		background-repeat: repeat-y;
-
-		background-size:
-			100px 50px, /* circle */
-			50px 50px, /* highlight */
-			300px 50px;
-
-
-		background-position:
-			0 0, /* circle */
-			0 0, /* highlight */
-			100px 0;
-
-
-		animation: shine_pr_option 1s infinite;
-	}
-
-	@keyframes shine_pr_option {
-		to {
-			background-position:
-				0 0,
-				100% 0, /* move highlight to right */
-				100px 0;
-		}
-	}
-
-.pr_option1:empty {
-    margin: auto;
-		width: 600px;
-		height: 200px; /* change height to see repeat-y behavior */
-
-		background-image:
-			radial-gradient( circle 50px at 50px 10px, lightgray 20%, transparent 0 ),
-			linear-gradient( 100deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 80% ),
-			linear-gradient( lightgray 10px, transparent 50px );
-
-		background-repeat: no-repeat;
-
-		background-size:
-			100px 50px, /* circle */
-			50px 50px, /* highlight */
-			300px 50px;
-
-
-		background-position:
-			0 0, /* circle */
-			0 0, /* highlight */
-			100px 0;
-
-
-		animation: shine_pr_option1 1s infinite;
-	}
-
-	@keyframes shine_pr_option1 {
-		to {
-			background-position:
-				0 0,
-				100% 0, /* move highlight to right */
-				100px 0;
-		}
-	}
-
-.circle {
-
-	width: 100px;
+/*.circle {
+    width: 100px;
 	height: 100px;
 	background-color: lightgrey;
 	border-radius: 50%;
-
 }
 
 .square {
@@ -144,12 +24,12 @@
 	height: 100px;
     border-radius: 25px;
 	background: lightgrey;
-}
+}*/
 
 .pr-user {
    display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-end;
 }
 
 .pr-feature {
@@ -158,6 +38,11 @@
 	align-items: center;
 	justify-content: center;
 }
+.pr-feature-group {
+    display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+}
 
 .pr-circle-container {
     margin-right: 20px;
@@ -165,12 +50,15 @@
 
 
 .pr-circle {
-
 	width: 100px;
 	height: 100px;
 	background-color: lightgrey;
 	border-radius: 50%;
-     margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.pr-lines-container{
+
 }
 
 .pr-line {
@@ -178,7 +66,6 @@
 	height: 20px;
     border-radius: 15px;
 	background: lightgrey;
-   margin-bottom: 10px;
 }
 
 .pr-line:last-child {
@@ -187,18 +74,18 @@
 
 .pr-nav-h {
      display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
 
 .pr-list-item-h {
      display: flex;
 	align-items: center;
-	justify-content:space-between;
+	justify-content:center;
 }
 .pr-list-item-v {
      display: flex;
 	align-items: center;
-	justify-content:center;
+	justify-content: flex-end;
 }
 
 .pr-circle-nav {
@@ -206,19 +93,41 @@
 	height: 30px;
 	background-color: lightgrey;
 	border-radius: 50%;
-     margin-bottom: 20px;
     margin-right: 15px;
-    margin-left: 50px;
 }
+
+.pr-post {
+     background-color: lemonchiffon;
+    width: 700px;
+    height: 500px;
+}
+
 .pr-post-header {
      display: flex;
     flex-direction: row;
     align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.pr-post-content {
+    padding-bottom: 300px;
 }
 .pr-post-content .pr-line {
-    width: 500px;
+    width: 650px;
 	height: 20px;
     border-radius: 15px;
 	background: lightgrey;
-   margin-bottom: 10px;
+}
+.pr-central-section {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pr-user-nav-v-container{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
 }
