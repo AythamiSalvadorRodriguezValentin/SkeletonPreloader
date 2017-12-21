@@ -1,0 +1,132 @@
+:root{
+    --main-color: #ECECEC;
+}
+body {
+    background-color: rgb(245,245,243);
+}
+
+.pr-on{
+
+}
+
+.pr-off{
+    display: none;
+}
+
+.pr-off * {
+    display: none !important;
+}
+
+.pr-user {
+    display: flex;
+    align-items: center;
+}
+
+.pr-feature {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.pr-feature .pr-circle {
+    margin-right: 0px;
+    margin-bottom: 12px;
+}
+.pr-circle-container {
+    margin-right: 20px;
+}
+
+.pr-circle {
+	width: 50px;
+	height: 50px;
+	background-color: var(--main-color);
+	border-radius: 50%;
+}
+
+.pr-lines-container{
+
+}
+
+.pr-line {
+    width: 300px;
+	height: 12px;
+    border-radius: 15px;
+	background: var(--main-color);
+}
+.pr-line:first-child {
+    margin-bottom: 12px;
+}
+
+.pr-line:last-child {
+    margin-top: 12px;
+    width: 230px;
+}
+.pr-nav-h .pr-line, .pr-nav-v .pr-line {
+    margin: 0px;
+}
+
+.pr-nav-h .pr-circle {
+    margin-right: 12px;
+    width: 25px;
+    height: 25px;
+}
+
+.pr-nav-h {
+     display: flex;
+    justify-content: space-between;
+}
+
+.pr-list-item-h {
+     display: flex;
+	align-items: center;
+    justify-content:center;
+    margin-right: 12px;
+}
+.pr-list-item-v {
+     display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.pr-list-item-v:last-child {
+    margin-bottom: 0px;
+}
+
+.pr-list-item-v .pr-circle-nav {
+    margin-right: 12px;
+}
+
+.pr-circle-nav {
+    width: 30px;
+	height: 30px;
+	background-color: var(--main-color);
+	border-radius: 50%;
+}
+
+.pr-post {
+    background-color: #ffffff;
+    padding: 60px 24px;
+    width: 700px;
+    height: 450px;
+    border-radius: 3px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.05), 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.pr-post-header {
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 48px;
+
+}
+.pr-post-content {
+    padding-bottom: 300px;
+}
+.pr-post-content .pr-line {
+    width: 100%;
+	height: 16px;
+    border-radius: 6px;
+	background: var(--main-color);
+}
+.pr-post-content .pr-line:last-child {
+    width: 80%;
+}

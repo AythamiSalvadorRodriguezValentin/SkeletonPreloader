@@ -17,10 +17,17 @@
 .small-button-shape-pill .sqs-block-button .sqs-block-button-element--small, .medium-button-shape-pill .sqs-block-button .sqs-block-button-element--medium, .large-button-shape-pill .sqs-block-button .sqs-block-button-element--large {
     padding: 1em 2.5em;
 }
-.Index-page {
+.Index-page:first-child {
     box-sizing: border-box;
     padding-top: 115px;
 }
-.full-height {
-
+pre {
+    background: #ffffff;
+}
+.bg-white {
+    background-color:#F4F4F3;
+    box-shadow: 0 7px 3px rgba(0,0,0,0.12), 0 -1px 5px rgba(0,0,0,0.24);
+    margin-top: 16px;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.1);
 }
